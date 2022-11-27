@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+body {
+  margin: 25px 50px;
+}
+</style>
+<title>Add Employee</title>
+</head>
+<body>
+<h1>Add Employee</h1><br>
+<form action="addemployee" method="post">
+	<div class="form-group">
+  		<label for="empid">Employee ID</label><br><br>
+  		<input type="number" id="empid" name="empid" ><br><br>
+  	</div>
+  	<div class="form-group">
+	  <label for="name">Name</label><br>
+	  <input type="text" id="name" name="name" required="required"><br><br>
+	</div>
+	<div class="form-group">
+	  <label for="age">Age</label><br>
+	  <input type="number" id="age" name="age" min="18" max="65" required="required"><br><br>
+	</div>
+	<div class="form-group">
+	  <label for="street">Street</label><br>
+	  <input type="text" id="street" name="street" required="required"><br><br>
+	</div>
+	<div class="form-group">
+	  <label for="city">City</label><br>
+	  <input type="text" id="city" name="city" required="required"><br><br>
+	</div>
+	<div class="form-group">
+	  <label for="zipcode">Zipcode</label><br>
+	  <input type="number" id="zipcode" name="zipcode" required="required"><br><br>
+	</div>
+	<div class="form-group">
+	  <label for="salary">Salary</label><br>
+	  <input type="number" id="salary" name="salary" required="required"><br><br>
+	</div>
+	<div class="form-group">
+	  <label for="title">Title</label><br>
+	  <input type="text" id="title" name="title" required="required"><br><br>
+	</div>
+	<div class="form-group">
+	  <label for="department">Department</label><br>
+	  <input type="text" id="department" name="department" required="required"><br><br>
+	</div>
+  <button type="submit" class="btn btn-primary">Add Employee</button><br><br>
+  <button type="reset" class="btn btn-primary">Reset Form</button>
+</form> 
+</body>
+</html>
