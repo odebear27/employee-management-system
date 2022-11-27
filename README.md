@@ -14,11 +14,11 @@ User can choose from the following options on what he would like to do:
 * List Employees
 
 ### List Employees
-User clicks on list employees to see the employees that are already in MySQL database.
+User clicks on `List Employees` to see the employees that are already in the employee table in MySQL database.
 
 ![image](https://user-images.githubusercontent.com/101394672/204132611-602e9c78-9d1c-4570-9e0d-576b45b2950b.png)
 
-Tha table in listemployees.html matches the data in MySQL database.
+The table in listemployees.html matches the data in MySQL database.
 
 ![image](https://user-images.githubusercontent.com/101394672/204132645-37961ba3-9949-427f-84d8-04b746925705.png)
 
@@ -57,3 +57,13 @@ When user clicks on `Delete Employee` button, the employee is removed from the e
 ![image](https://user-images.githubusercontent.com/101394672/204133303-73752421-09a2-4a80-8800-ca18167fa207.png)
 
 ### Search Employee
+User can search for employee by employee id.
+
+![image](https://user-images.githubusercontent.com/101394672/204142086-0400a70a-e10f-4bb8-ad61-a503f26c962d.png)
+
+When user clicks on `Search Employee by ID` button, the employee details are returned in a table on the redirected page.
+
+![image](https://user-images.githubusercontent.com/101394672/204142122-7e8f9438-4cd3-4444-9389-1f1f05fc8d7d.png)
+
+## Improvements in the Future
+When user clicks on  `Update Employee`, a table with all employee details should be shown with an additional column that has an `Update` button to update that particular employee's details.
